@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=4;
+		
+		//사칙연산을 해주는 계산기 객체 생성(메소드만 있는 클래스)
+		Calculator cal=new Calculator();
+		
+		int sum = cal.더하기기능(a,b);
+	}
+
+}

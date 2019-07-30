@@ -1,0 +1,82 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+		int b = 4;
+
+		// 사칙연산을 해주는 계산기 객체 생성(메소드만 있는 클래스)
+		Calculator cal = new Calculator();
+
+		int sum = cal.sum(a, b);
+		System.out.println(sum);
+
+		int sub = cal.subtract(a, b);
+		System.out.println(sub);
+
+		int mul = cal.multi(a, b);
+		System.out.println(mul);
+
+		int div = cal.divide(a, b);
+		System.out.println(div);
+
+		// 실수형 숫자들의 사칙연산 의뢰
+		double c = 3.5;
+		double d = 4.6;
+
+		System.out.println(cal.sum(c, d));
+		System.out.println(cal.subtract(c, d));
+		System.out.println(cal.multi(c, d));
+		System.out.println(cal.divide(c, d));
+
+		// 원한다면 문자열 데이터의 산술 덧셈 기능도 만들 수 있음.
+		System.out.println("123" + "456"); // 123456
+		System.out.println(cal.sum("123", "456"));// int형 덧셈 = 579
+
+		// call by value, call by reference
+		int n = 10;
+		
+		
+		Cal ca = new Cal();
+		// 전달한 값을 1 증가시키는 기능을 실행
+		ca.increase(n);
+		
+
+	}// main method
+
+}// Main class
+
+class Cal {
+
+	// 전달받은 값을 1증가시키는 기능을 가진 클래스
+	void increase(int x) {
+		x++;
+		System.out.println("x의 값: "+x);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

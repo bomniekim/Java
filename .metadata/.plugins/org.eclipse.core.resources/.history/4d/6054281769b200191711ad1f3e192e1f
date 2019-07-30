@@ -1,0 +1,41 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+		int b = 4;
+
+		// 사칙연산을 해주는 계산기 객체 생성(메소드만 있는 클래스)
+		Calculator cal = new Calculator();
+
+		int sum = cal.sum(a, b);
+		System.out.println(sum);
+
+		int sub = cal.subtract(a, b);
+		System.out.println(sub);
+
+		int mul = cal.multi(a, b);
+		System.out.println(mul);
+
+		int div = cal.divide(a, b);
+		System.out.println(div);
+
+		// 실수형 숫자들의 사칙연산 의뢰
+		double c = 3.5;
+		double d = 4.6;
+
+		System.out.println(cal.sum(c, d));
+		System.out.println(cal.subtract(c, d));
+		System.out.println(cal.multi(c, d));
+		System.out.println(cal.divide(c, d));
+		
+		//원한다면 문자열 데이터의 산술 덧셈 기능도 만들 수 있음.
+		System.out.println( "123"+"456" ); //123456
+		System.out.println( cal.sum("123","456"));//int형 덧셈 = 579
+
+		
+		
+	}
+
+}
