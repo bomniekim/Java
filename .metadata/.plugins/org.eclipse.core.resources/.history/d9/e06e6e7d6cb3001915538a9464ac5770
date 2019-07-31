@@ -1,0 +1,9 @@
+package mycounter;
+
+public class MyCounter {
+
+	int cnt;
+	MyCounter() {
+		cnt = 1;
+	}
+}
