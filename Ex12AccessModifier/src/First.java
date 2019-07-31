@@ -7,7 +7,7 @@ public class First {
 	protected int c;
 	public int d;
 	
-	
+	//생성자를 만들지 않아도 파라미터가 void형인 생성자는 기본으로 존재 : Default Constructor
 	
 	//멤버메소드
 	void aaa() {

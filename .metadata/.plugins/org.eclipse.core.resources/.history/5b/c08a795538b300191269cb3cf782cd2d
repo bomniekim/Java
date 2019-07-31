@@ -1,0 +1,16 @@
+
+public class Second {
+
+	// 멤버변수(field) - private권장
+	private int a;
+	private int b;
+
+	// 멤버변수를 초기화하는 생성자 메소드
+	public Second(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	//생성자 오버로딩을 요구
+	
+}

@@ -1,0 +1,11 @@
+package aaa;
+
+public class Second {
+
+	// 접근제한자가 부여된 멤버변수
+	private int a;
+	int b;
+	protected int c;
+	public int d;
+
+}
