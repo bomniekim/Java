@@ -23,6 +23,7 @@ public class MapTest {
 		
 		//Map인터페이스는 Collection인터페이스를 상속하지 않았으므로
 		//Collection인터페이스의 (추상)메소드를 모두 가지고 있다고 확신할 수 없음.
+		//ex) add(), remove() 이런 것들을 가지고 있다고 확신할 수 없음.
 		//실제로 add()메소드 없음
 		
 		//<key, Value>
@@ -42,7 +43,7 @@ public class MapTest {
 		System.out.println( map.get("Name") ); //훨씬 식별성이 높고 직관적 : 정말 많이 쓰임
 		System.out.println( map.get("ID") );
 		System.out.println( map.get("PW") );
-		
+		System.out.println( map.get("kkk") );
 		
 		//중복?
 		map.put("kkk", "Hong"); //Key값은 다르고 Value는 같음 : 저장가능 -> map.size():4
