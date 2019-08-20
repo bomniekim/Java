@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 public class MyFrame extends JFrame{
 
 	
-	public MyFrame() {
+	public MyFrame() { //持失切 五社球
 		// TODO Auto-generated constructor stub
 		this.setSize(300, 200);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
